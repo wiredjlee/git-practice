@@ -2,21 +2,48 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Git Practice</title>
+	<title>Calculator App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<p id="test">This is Git</p>
-	<p>This is another file change update</p>
+	<div class="container">
+		<h1 class="text-center">Calculator App</h1>
+		<div class="row">
+			<div class="col-sm-12 calculator">
+				<div class="col-sm-12 calculator-display">
+					<input type="text">
+				</div>
+				<div class="col-sm-12 calculator-keys">
+					<div class="row">
+						<div class="col-sm-3 key">7</div>
+						<div class="col-sm-3 key">8</div>
+						<div class="col-sm-3 key">9</div>
+						<div class="col-sm-3 key">X</div>
 
-<script>
-	alert('test');
-	console.log('test test');
+						<div class="col-sm-3 key">4</div>
+						<div class="col-sm-3 key">5</div>
+						<div class="col-sm-3 key">6</div>
+						<div class="col-sm-3 key">-</div>
 
-	var number = 20;
+						<div class="col-sm-3 key">1</div>
+						<div class="col-sm-3 key">2</div>
+						<div class="col-sm-3 key">3</div>
+						<div class="col-sm-3 key">+</div>
 
-	if(number < 50) {
-		console.log('number is less than 50! ' + 'The actual number is ' + number);
-	}
-</script>
+						<div class="col-sm-3 key">0</div>
+						<div class="col-sm-3 key">.</div>
+						<div class="col-sm-3 key">C</div>
+						<div class="col-sm-3 key">/</div>
+						<div class="col-sm-12 equal-button">=</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/calculator.js"></script>
 </body>
 </html>
